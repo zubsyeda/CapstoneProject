@@ -20,6 +20,7 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 
 [Evaluation of your app across the following attributes]
 - **Category:**
+  - Lifestyle/Social
 - **Mobile:**
     - Write from wherever and whenever. Ability to add photos and location features if needed. 
 - **Story:**
@@ -40,39 +41,37 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Create a new entry
+* add marvel or oddity buttons where users can select and assign
+* automatic dates, list entries with the date it was written
+* Ability to add a photo with the diary entry
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Streaks for writing an entry every single day
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
+- [ ] Table of Contents (Stream)
 * [list associated required story here]
-* ...
-list second screen here]
+* contains all written entries and can add new entries
+- [ ] Login Page
+- [ ] Profile
 * [list associated required story here]
-* ...
+* view streaks and friends and how often you post
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home -> Table of contents Stream, all the entries listed
+* Profile -> View streaks and other data
+* Settings -> Customize color of the app and style
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [ ] Login screen
+* Home
 
 ## Wireframes
 
