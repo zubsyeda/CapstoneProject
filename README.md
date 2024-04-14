@@ -14,7 +14,7 @@ Original App Design Project - README Template
 
 ### Description
 
-Marvels and Oddities is a digital diary that can be used to capture ones thoughts and feelings through words. Photos and videos are able to capture ones physical appearances over time, but writing down your thoughts and feelings capture your maturity and the way you felt during certain moments in life. The goal of this app is to capture ones daily Marvels or Oddities, based off of a book _Love From A to Z_. 
+Marvels and Oddities is a digital diary that can be used to capture ones thoughts and feelings through words. Photos and videos are able to capture ones physical appearances over time, but writing down your thoughts and feelings capture your maturity and the way you felt during certain moments in life. The goal of this app is to capture ones daily Marvels or Oddities, inspired from a book _Love From A to Z_. 
 
 ### App Evaluation
 
