@@ -21,14 +21,22 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 [Evaluation of your app across the following attributes]
 - **Category:**
 - **Mobile:**
+    - Write from wherever and whenever. Ability to add photos and location features if needed. 
 - **Story:**
+    - In a world of social media, and constantly having photos and thoughts being percieved by other people, this application allows privacy. Allows you to store your thoughts and feelings for only your own sake to look back upon. Your safe space online.
 - **Market:**
+  - Audience to those who have a lot of thoughts they want to be able to capture. Towards a young audience who love to read and write. 
 - **Habit:**
+  - The goal would be to use the app every day, even just a sentence or a word. Add streaks or some type of counter to push the users to constantly write.
+  - Average user only creates, does not consume. But might later on add features to consume and create. 
 - **Scope:**
+  - Not challenging to build, really similar to a to do list or note application.
+  - Might be challenging to add photo features and location features. 
 
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
+
 
 **Required Must-have Stories**
 
