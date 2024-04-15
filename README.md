@@ -1,6 +1,6 @@
 Original App Design Project - README Template
 ===
-
+** wasn't able to add a video gif, loom suddenly stopped working **
 # Marvels & Oddities
 
 ## Table of Contents
@@ -77,8 +77,11 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![IMG_4860](https://github.com/zubsyeda/CapstoneProject/assets/125157533/943343a9-404b-4ac7-a904-f50384078347)
 
 ### [BONUS] Digital Wireframes & Mockups
+<img width="725" alt="Screenshot 2024-04-15 at 12 26 53 AM" src="https://github.com/zubsyeda/CapstoneProject/assets/125157533/c527d9dc-ab04-4c9a-8999-3266df1fbc85">
+
 
 ### [BONUS] Interactive Prototype
 
