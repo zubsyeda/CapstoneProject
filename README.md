@@ -98,7 +98,11 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
-- 
+
+### Progress
+
+- Able to have an initial start-up code based on the to-do list application.
+- Challenges with changing the original code to fit the aesthetic and requirements for this application.
 
 ## License
 
