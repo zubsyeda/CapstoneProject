@@ -12,6 +12,14 @@ Original App Design Project - README Template
 
 ## Overview
 
+### Progress
+
+- Able to have an initial start-up code based on the to-do list application.
+- finished table of contents, shows entries
+- Challenges with changing the original code to fit the aesthetic and requirements for this application.
+- next steps would be to customize the overall look of the app UI/UX
+- also to work on automating some properties, like dates and adding different buttons
+
 ### Description
 
 Marvels and Oddities is a digital diary that can be used to capture ones thoughts and feelings through words. Photos and videos are able to capture ones physical appearances over time, but writing down your thoughts and feelings capture your maturity and the way you felt during certain moments in life. The goal of this app is to capture ones daily Marvels or Oddities, inspired from a book _Love From A to Z_. 
@@ -108,10 +116,7 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-### Progress
 
-- Able to have an initial start-up code based on the to-do list application.
-- Challenges with changing the original code to fit the aesthetic and requirements for this application.
 
 ## License
 
