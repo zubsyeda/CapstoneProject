@@ -1,6 +1,6 @@
 Original App Design Project - README Template
 ===
-** wasn't able to add a video gif, loom suddenly stopped working **
+
 # Marvels & Oddities
 
 ## Table of Contents
