@@ -50,9 +50,18 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 
 * Streaks for writing an entry every single day
 
+<div>
+    <a href="https://www.loom.com/share/e6707636c0214b1b8485a19a5f88645e">
+      <p>Marvels and Oddities Project - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/e6707636c0214b1b8485a19a5f88645e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e6707636c0214b1b8485a19a5f88645e-with-play.gif">
+    </a>
+  </div>
+
 ### 2. Screen Archetypes
 
-- [ ] Table of Contents (Stream)
+- [x] Table of Contents (Stream)
 * [list associated required story here]
 * contains all written entries and can add new entries
 - [ ] Login Page
