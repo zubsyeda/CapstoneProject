@@ -72,7 +72,7 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [x] Table of Contents (Stream)
 * [list associated required story here]
 * contains all written entries and can add new entries
-- [ ] Login Page
+- [ ] Custom Buttons to allow for personalization: Marvel and Oddity button
 - [ ] Profile
 * [list associated required story here]
 * view streaks and friends and how often you post
