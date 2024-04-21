@@ -19,6 +19,7 @@ Original App Design Project - README Template
 - Challenges with changing the original code to fit the aesthetic and requirements for this application.
 - next steps would be to customize the overall look of the app UI/UX
 - also to work on automating some properties, like dates and adding different buttons
+
 **Week 2**
 - Got login and sign up pages and implemented navigation plus user authorization using Firebase
 - Challenging in using Firebase
