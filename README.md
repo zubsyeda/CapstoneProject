@@ -13,12 +13,18 @@ Original App Design Project - README Template
 ## Overview
 
 ### Progress
-
+**Week 1**
 - Able to have an initial start-up code based on the to-do list application.
 - finished table of contents, shows entries
 - Challenges with changing the original code to fit the aesthetic and requirements for this application.
 - next steps would be to customize the overall look of the app UI/UX
 - also to work on automating some properties, like dates and adding different buttons
+**Week 2**
+- Got login and sign up pages and implemented navigation plus user authorization using Firebase
+- Challenging in using Firebase
+- Challenge to connect different pages and make efficient navigation
+- next steps to fix errors and add more databases so that userId can correspond to its own diary entries
+  
 
 ### Description
 
@@ -61,6 +67,16 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [ ]add marvel or oddity buttons where users can select and assign
 - [ ]automatic dates, list entries with the date it was written
 - [ ]Ability to add a photo with the diary entry
+
+<div>
+    <a href="https://www.loom.com/share/b5121fd3be7243af89d9e0bc8f79d1e1">
+      <p>Capstone Project Part 2 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/b5121fd3be7243af89d9e0bc8f79d1e1">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b5121fd3be7243af89d9e0bc8f79d1e1-with-play.gif">
+    </a>
+  </div>
+
 
 <div>
     <a href="https://www.loom.com/share/e6707636c0214b1b8485a19a5f88645e">
