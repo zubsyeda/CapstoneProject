@@ -49,14 +49,18 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 
 **Required Must-have Stories**
 
-* Create a new entry
-* add marvel or oddity buttons where users can select and assign
-* automatic dates, list entries with the date it was written
-* Ability to add a photo with the diary entry
+[x] Create a new entry
+[x] Calender linked to diary entries
+[x] Login & Sign up
+[ ] Connect UserId with its diary entries
+[ ] Work on UI/UX
 
 **Optional Nice-to-have Stories**
 
 * Streaks for writing an entry every single day
+* add marvel or oddity buttons where users can select and assign
+* automatic dates, list entries with the date it was written
+* Ability to add a photo with the diary entry
 
 <div>
     <a href="https://www.loom.com/share/e6707636c0214b1b8485a19a5f88645e">
