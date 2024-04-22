@@ -24,7 +24,7 @@ Original App Design Project - README Template
 - Got login and sign up pages and implemented navigation plus user authorization using Firebase
 - Challenging in using Firebase
 - Challenge to connect different pages and make efficient navigation
-- next steps to fix errors and add more databases so that userId can correspond to its own diary entries
+- next steps to fix UI/UX and add more databases so that userId can correspond to its own diary entries
   
 
 ### Description
