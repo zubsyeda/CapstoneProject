@@ -34,6 +34,7 @@ class CreateAccountViewController: UIViewController {
         Auth.auth().createUser(withEmail: email, password: password) { firebaseResult, error in
             if let e = error{
                 print("error")
+                
             } else{
                 //Go to home screen
                 self.performSegue(withIdentifier: "goToNext", sender: self)

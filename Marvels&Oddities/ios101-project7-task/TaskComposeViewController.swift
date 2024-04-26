@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class TaskComposeViewController: UIViewController {
 
@@ -11,6 +12,8 @@ class TaskComposeViewController: UIViewController {
 
     @IBOutlet weak var diaryField: UITextView!
     
+    
+    @IBOutlet weak var MarvelOddityButton: UISegmentedControl!
     
     // A UI element that allows users to pick a date.
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -88,24 +91,29 @@ class TaskComposeViewController: UIViewController {
         }
         // 2.
         var task: Task
-        // 3.
-        if let editTask = taskToEdit {
-            // i.
-            task = editTask
-            // ii.
-            task.title = title
-            task.note = diaryField.text
-            task.dueDate = datePicker.date
-        } else {
-            // 4.
-            task = Task(title: title,
-                        note: diaryField.text,
-                        dueDate: datePicker.date)
+        if let user = Auth.auth().currentUser {
+            // 3.
+            if let editTask = taskToEdit {
+                // i.
+                task = editTask
+                // ii.
+                task.title = title
+                task.note = diaryField.text
+                task.dueDate = datePicker.date
+            } else {
+                // 4.
+                task = Task(title: title,
+                            note: diaryField.text,
+                            dueDate: datePicker.date,
+                            userId: user.uid)
+            }
+            // 5.
+            onComposeTask?(task)
+            // 6.
+            dismiss(animated: true)
+        } else{
+            presentAlert(title: "Authentication Error", message: "No logged in user found. Please log in to save tasks.")
         }
-        // 5.
-        onComposeTask?(task)
-        // 6.
-        dismiss(animated: true)
     }
 
     // The cancel button was tapped.

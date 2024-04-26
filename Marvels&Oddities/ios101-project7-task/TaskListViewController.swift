@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class TaskListViewController: UIViewController {
 
@@ -91,8 +92,12 @@ class TaskListViewController: UIViewController {
     // 5. Reload the table view data to reflect any updates to the tasks array.
     //    - reloadSections(IndexSet(integer: 0), with: .automatic) is similar to `reloadData()` with the added ability to update the table view changes with animation.
     private func refreshTasks() {
+        guard let userId = Auth.auth().currentUser?.uid else {
+            print("No user logged in")
+            return
+        }
         // 1.
-        var tasks = Task.getTasks()
+        var tasks = Task.getTasks(forUserId: userId)
         // 2.
         tasks.sort { lhs, rhs in
             if lhs.isComplete && rhs.isComplete {

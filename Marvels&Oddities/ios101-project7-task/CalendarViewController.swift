@@ -3,6 +3,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class CalendarViewController: UIViewController {
 
@@ -13,13 +14,19 @@ class CalendarViewController: UIViewController {
     private var selectedTasks: [Task] = []
 
     private var calendarView: UICalendarView!
-
+    
     @IBOutlet private weak var calendarContainerView: UIView!
     @IBOutlet private weak var tableView: UITableView!
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        guard let userId = Auth.auth().currentUser?.uid else {
+                // Handle the case where there is no user logged in
+                print("No user logged in")
+                return
+            }
         // MARK: - Setup the Table View
         // 1. Set table view data source. Needed for standard table view setup:
         //    - tableView(numberOfRowsInSection:) -> How many rows to display
@@ -86,7 +93,7 @@ class CalendarViewController: UIViewController {
         // ---
 
         // 1.
-        tasks = Task.getTasks()
+        tasks = Task.getTasks(forUserId: userId)
         // 2.
         let todayComponents = Calendar.current.dateComponents([.year, .month, .weekOfMonth, .day], from: Date())
         // 3.
@@ -143,8 +150,13 @@ class CalendarViewController: UIViewController {
     // 7. Reload the calendar view's date decorations for all of the task due date components.
     // 8. Reload the table view with animation.
     private func refreshTasks() {
+        guard let userId = Auth.auth().currentUser?.uid else {
+                // Handle the case where there is no user logged in
+                print("No user logged in")
+                return
+            }
         // 1.
-        tasks = Task.getTasks()
+        tasks = Task.getTasks(forUserId: userId)
         // 2.
         tasks.sort { lhs, rhs in
             if lhs.isComplete && rhs.isComplete {
