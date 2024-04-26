@@ -59,7 +59,7 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [x] Create a new entry
 - [x] Calender linked to diary entries
 - [x] Login & Sign up
-- [x] Work on UI/UX
+- [x] Complete UI/UX Theme
 
 **Optional Nice-to-have Stories**
 
