@@ -68,6 +68,15 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 - [ ]automatic dates, list entries with the date it was written
 - [ ]Ability to add a photo with the diary entry
 
+  <div>
+    <a href="https://www.loom.com/share/33cdd6385c754ffb8857141210d3aaac">
+      <p>Loom Message - 26 April 2024 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/33cdd6385c754ffb8857141210d3aaac">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/33cdd6385c754ffb8857141210d3aaac-with-play.gif">
+    </a>
+  </div>
+
 <div>
     <a href="https://www.loom.com/share/b5121fd3be7243af89d9e0bc8f79d1e1">
       <p>Capstone Project Part 2 - Watch Video</p>
@@ -111,6 +120,7 @@ Marvels and Oddities is a digital diary that can be used to capture ones thought
 * Home
 
 ## Wireframes
+
 
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
